@@ -1,0 +1,81 @@
+﻿#FooterRow
+{
+    font-family: Arial;
+    font-size: 9pt;
+    width:100%; 
+    background-color: #bbb !important;
+    padding-left: 2px;
+    -moz-user-select: none;      
+    user-select: none;
+    position: fixed;
+    bottom: 0px;
+}
+   
+#txtPageNo
+{
+    width: 24px; 
+    height: 14px; 
+}
+
+a.ToolBarItem
+{
+    color: blue;
+    cursor: pointer;
+    text-decoration: none;
+    padding: 2px;
+    border: solid 0px;
+    display: block;
+    float: left;
+    
+}
+ 
+.clearSearch {
+    border-bottom: 1px solid blue;
+    color: Blue;
+    cursor: pointer;
+}
+
+a.disabledItem
+{
+    background-color: transparent;
+    text-decoration: none;
+    padding: 2px;
+    border: solid 0px;
+    display: block;
+    float: left;
+    cursor: default;
+    opacity:0.5;
+}
+
+.firstImageButton
+{
+    background-image: url("../images/first.gif");
+}
+
+.lastImageButton
+{
+    background-image: url("../images/last.gif");
+}
+
+.backImageButton
+{
+    background-image: url("../images/back.gif");
+}
+
+.forwardImageButton
+{
+    background-image: url("../images/forward.gif");
+}
+
+#FooterPager:before
+{
+    box-sizing: inherit !important;
+}
+
+#FooterRow *,
+#FooterRow *:before,
+#FooterRow *:after {
+    -webkit-box-sizing: content-box !important;
+    -moz-box-sizing: content-box !important;
+    box-sizing: content-box !important;
+}

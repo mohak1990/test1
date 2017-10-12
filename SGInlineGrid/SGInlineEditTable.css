@@ -1,0 +1,192 @@
+﻿/* tblMultiPopUp */
+
+.SGInlineEditTable *
+{
+    -moz-user-select: none;
+    user-select: none;
+}
+ 
+.SGInlineEditTable .SGTableContainer
+{
+   table-layout:fixed;
+}
+
+.SGInlineEditTable a:hover, 
+.SGInlineEditTable a:visited, 
+.SGInlineEditTable a:link, 
+.SGInlineEditTable a:active
+{
+    text-decoration: none;
+} 
+
+.SGInlineEditTable .SGTableBodyContainer
+{
+    oxverflow-y: auto;
+    oxverflow-x: hidden;
+}
+
+.SGInlineEditTable .SGTableHeader
+{
+    background-color: #507CD1;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 9pt;
+    line-height: 16pt;  
+    table-layout:fixed;
+    -moz-user-select: none;
+}
+.SGInlineEditTable .SGGridHeader
+{
+    line-height: 16pt;  
+    table-layout:fixed;
+    -moz-user-select: none;   
+    font-family: Verdana;
+    font-size: 8pt;
+    background-image: url("Images/Grid/GridHeader.gif");
+    color: black;    
+}
+
+.SGInlineEditTable .SGTableHeader td 
+{
+    border-right: 1px solid #dfdfdf;
+}
+
+.SGInlineEditTable .SGGridHeader td 
+{
+    border-right: 1px solid #dfdfdf;
+}
+
+.SGInlineEditTable .SGTableBody 
+{   
+    table-layout:fixed;
+    -moz-user-select: none;
+    user-select: none;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 9pt;
+    line-height: 16pt;
+}  
+
+.SGInlineEditTable .SGTableBody tbody
+{   
+    max-height:200px;
+    width:600px;
+    white-space: nowrap; 
+    background: #f5f5f5;  
+    overflow-y: auto; 
+    color:black;
+}
+
+.SGInlineEditTable .SGTableBody td 
+{   
+    -moz-user-select: none;  
+    border-bottom: 1px solid #dfdfdf;
+    border-right:  1px solid #dfdfdf;
+    empty-cells: show;
+    overflow: hidden;
+    line-height: 14pt;
+    text-overflow: ellipsis; 
+}
+
+.TextWrap
+{
+    white-space: -o-pre-wrap; 
+    white-space: pre-wrap; 
+    white-space: -moz-pre-wrap; 
+    white-space: -pre-wrap; 
+}
+
+.SGTableColFooter td
+{   
+    -moz-user-select: none;  
+    border-bottom: 1px solid #dfdfdf;
+    border-top: 1px solid #dfdfdf;
+    border-right:  1px solid #dfdfdf;
+    empty-cells: show;
+    overflow: hidden;
+    line-height: 14pt;
+    text-overflow: ellipsis; 
+    white-space: nowrap;
+}
+
+.SGInlineEditTable .SGTableBody tbody tr:hover{
+     
+   background:  #ffffe0;
+}
+ 
+.SGInlineEditTable .SGTableRow
+{
+    height: 20px;
+}
+
+.SGInlineEditTable .SGTableRowSelected
+ {
+     background: #dbdbdb;
+     color: Blue; 
+     /*font-size:0px;*/
+ }
+ 
+.SGInlineEditTable .SGTableBody tbody tr.SGTableRowSelected:hover
+ {
+     background: #dbdbdb;
+     color: Blue;
+     /*font-size:0px;*/
+ }
+ 
+.SGInlineEditTable .SGTableBody tbody tr.SelectedRow
+{
+    background-color: #c2d8eb;
+    color: Black;
+}
+ 
+.CommonHeader th
+{
+    text-align: center;
+    border-bottom: 1px solid #dfdfdf;
+}
+
+.SGInlineEditTable .UpdatePanel
+{   
+    table-layout:fixed; 
+    white-space: nowrap; 
+    position:absolute;
+    color:black;  
+    visibility: hidden;  
+    z-index: 100;
+    width:20px;
+    height: 20px;
+    line-height: 15px;
+}
+ 
+ 
+.updatePanelOverlay input
+{
+    font-size: 12px;
+}
+ 
+.SGTableTD-hiddenClass-true
+{
+    background-image: url(./images/checkImg.png);
+    background-repeat: no-repeat;
+    height: 8px;
+    width: 35px;
+    background-position: center; 
+    
+}
+
+input[type="radio"], input[type="checkbox"] {
+    line-height: normal;
+    margin: 0;
+}
+
+.RowsDisabled
+{
+  opacity: 0.5   
+}
+
+.chkBoxDisable input
+{
+    pointer-events: none;
+    opacity: 0.3;
+} 
+ 
